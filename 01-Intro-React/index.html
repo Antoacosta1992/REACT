@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script> 
+
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+     <!-- Babel se va a ancargar de traducir codigo moderno a lo que es un codigo que sea soportado por cualquier navegador -->
+
+    <title>ReactApp</title>
+</head>
+<body>
+    <div id="root"> </div>
+
+    <script type="text/babel">
+
+        const divRoot = document.querySelector('#root');
+        const nombre = 'Sakura';
+        const h1Tag = <h1>Hola, soy {nombre} </h1>;
+        //se crea constante y se le agrega la variable nombre
+
+        ReactDOM.render( h1Tag, divRoot );
+
+    </script>
+
+
+    
+</body>
+</html>
