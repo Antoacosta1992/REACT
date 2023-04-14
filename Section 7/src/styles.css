@@ -1,6 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
   }
   
   body {
@@ -18,7 +18,7 @@
     width: 100%;
   }
   h1{
-    color: bisque;
+    color:chocolate;
     text-align: center;
     font-size: 3rem;
   }
@@ -30,7 +30,7 @@
   h3 {
     font-size: 2rem;
     margin-bottom: 5px;
-    color:cadetblue;
+    color: brown;
   }
   
   .card-grid {
